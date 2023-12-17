@@ -38,7 +38,5 @@ function calclength() {
     document.getElementById("length").innerHTML = length+"  ";
 }
 function eraseText() {
-    document.getElementById("char").value = "";
-    document.getElementById("result").value = "";
-    document.getElementById("length").innerHTML = "";
+    location.reload();
 }
