@@ -1,4 +1,5 @@
 function convertfirsttoUpper() {
+    window.scrollTo(0, 500);
     var str = document.getElementById("char").value;
     var str2 = str.length;
     var str3 = str.slice(1,str2);
@@ -7,8 +8,11 @@ function convertfirsttoUpper() {
     var str6 = str5.toUpperCase();
     var str7 = str6+str4
     document.getElementById("result").innerHTML = "\n" + str7;
+     
+    
 }
 function convertlower() {
+   window.scrollTo(0, 500);
     var str = document.getElementById("char").value;
     var str2 = str.length;
     var str3 = str.toLowerCase();
@@ -16,6 +20,7 @@ function convertlower() {
 
 }
 function convertUpper() {
+   window.scrollTo(2, 500);
     var str = document.getElementById("char").value;
     var str2 = str.length;
     var str3 = str.toUpperCase();
@@ -23,6 +28,7 @@ function convertUpper() {
 
 }
 function convertfirsttoLower() {
+   window.scrollTo(0, 500);
     var str = document.getElementById("char").value;
     var str2 = str.length;
     var str3 = str.slice(1,str2);
